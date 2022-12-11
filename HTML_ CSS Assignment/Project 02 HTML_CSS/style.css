@@ -1,0 +1,85 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+/* Body */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Montserrat;
+}
+
+/* Navigatio Bar */
+
+.navbar {
+  height: 4.7rem;
+
+  color: rgb(253, 254, 254);
+  background-color: rgb(18, 17, 17);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list {
+  position: relative;
+  right: 22rem;
+  display: flex;
+  width: 25rem;
+  justify-content: space-between;
+}
+.list-item {
+  list-style: none;
+  margin: 0px 22px;
+}
+.logo {
+  margin-left: 60px;
+  height: 30px;
+}
+.button-small {
+  margin-right: 60px;
+  padding: 10px 20px;
+  border-radius: 9px;
+  background-color: rgb(223, 39, 223);
+}
+.line {
+  margin-right: 290px;
+  height: 45px;
+  width: 1px;
+  background-color: rgb(248, 249, 250);
+}
+
+/* Hero Section */
+
+.hero {
+  height: 40.2rem;
+    color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: ;
+  align-items: center;
+  background-image: url(./assets/bg.png);
+  background-repeat: no-repeat;
+  background-size:1280px 663px ;
+}
+.hero-heading {
+    color: aliceblue;
+    margin-top: 6rem;
+
+    font-size: 47px;
+    line-height: 55px;
+    margin-bottom:-9px ;
+  /* inline-size: 290px;
+    overflow-wrap: break-word; */
+}
+.hero{
+    line-height: 1rem;
+}
+.button-large{
+    color: aliceblue;
+    margin-top: 15px;
+    border: none;
+    border-radius: 22px;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-family:Montserrat ;
+    background-color: rgb(247, 59, 241);
+}
