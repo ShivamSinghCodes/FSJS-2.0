@@ -26,6 +26,9 @@ body {
   justify-content: space-between;
   color: rgb(132, 130, 130);
 }
+.home{
+  color: rgb(16, 15, 15);
+}
 .list-item:hover {
   color: rgb(21, 20, 20);
 }
